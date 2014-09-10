@@ -1,0 +1,300 @@
+<root>
+	<product id="p01331438654">
+		<productId>p01331438654</productId>
+		<productStatus>Online</productStatus>
+		<productName>scsmk_prd1</productName>
+		<shortDescription>SCSMK1</shortDescription>
+		<longDescription></longDescription>
+		<marketPrice>0</marketPrice>
+		<price>100</price>
+		<costPrice>0</costPrice>
+		<reserveOnlineTime></reserveOnlineTime>
+		<reserveOfflineTime></reserveOfflineTime>
+		<specs>
+			<spec>
+				<specId>1</specId>
+				<specDescription>SCSMK1-1</specDescription>
+				<customizedProductId>SCSMK1-1</customizedProductId>
+				<currentStock>3</currentStock>
+				<saftyStock>2</saftyStock>
+				<dimensions>
+					<dimension>
+						<specDimensionId>1</specDimensionId>
+						<description>
+							<descriptionId>1</descriptionId>
+						</description>
+					</dimension>
+				</dimensions>
+			</spec>
+			<spec>
+				<specId>2</specId>
+				<specDescription>SCSMK1-2</specDescription>
+				<customizedProductId>SCSMK1-2</customizedProductId>
+				<currentStock>8</currentStock>
+				<saftyStock>2</saftyStock>
+				<dimensions>
+					<dimension>
+						<specDimensionId>1</specDimensionId>
+						<description>
+							<descriptionId>2</descriptionId>
+						</description>
+					</dimension>
+				</dimensions>
+			</spec>
+		</specs>
+		<specDimensions>
+			<specDimension>
+				<specDimensionId>1</specDimensionId>
+				<descriptions>
+					<description>
+						<descriptionId>1</descriptionId>
+						<name>SCSMK1-1</name>
+					</description>
+					<description>
+						<descriptionId>2</descriptionId>
+						<name>SCSMK1-2</name>
+					</description>
+				</descriptions>
+				<specDimensionName>規格尺寸</specDimensionName>
+			</specDimension>
+		</specDimensions>
+		<images></images>
+		<attributes></attributes>
+		<discountPrice>
+			<amount>5</amount>
+			<price>80</price>
+		</discountPrice>
+		<saleType>Normal</saleType>
+		<saleTypeInfo></saleTypeInfo>
+		<categoryId>152982692</categoryId>
+		<customizedMainProductId></customizedMainProductId>
+		<specTypeDimension>1</specTypeDimension>
+		<addons>
+			<addon>
+				<productId>p01331438652</productId>
+			</addon>
+		</addons>
+		<freebies>
+			<freebie>
+				<productId>p01331438653</productId>
+			</freebie>
+		</freebies>
+		<maxBuyNum>20</maxBuyNum>
+		<videoPath></videoPath>
+		<isTaxFree>0</isTaxFree>
+		<isNoInvoice>0</isNoInvoice>
+		<shippings>
+			<shipping>
+				<shippingId>2</shippingId>
+				<name>貨運 / 宅配</name>
+				<description>免運費</description>
+				<feeType>Free</feeType>
+			</shipping>
+		</shippings>
+		<payTypes>
+			<payType>
+				<payTypeId>1</payTypeId>
+				<name>ATM 轉帳</name>
+			</payType>
+		</payTypes>
+		<isLimit>0</isLimit>
+		<limitCount></limitCount>
+		<storeId>tw_auc_user3</storeId>
+	</product>
+
+
+	<!-- pp -->
+	<product id="p027528285942">
+			<productId>p027528285942</productId>
+			<productStatus>Online</productStatus>
+			<productName>
+<![CDATA[ 
+C測試賣場僅提供測試人員使用,商品內容與商品皆為測試使用, 所有訂單一律取消 折扣商品
+  ]]>
+			</productName>
+			<shortDescription>
+<![CDATA[ 
+automation測試用的商品發布，非真實商品。商品內容與商品皆為測試使用,所有訂單一律取消
+  ]]>
+			</shortDescription>
+			<productType>Main</productType>
+			<marketPrice>0</marketPrice>
+			<price>168</price>
+			<costPrice>0</costPrice>
+			<reserveOnlineTime />
+			<reserveOfflineTime />
+			<specs>
+				<spec>
+					<specId>1</specId>
+					<specDescription>
+<![CDATA[ 
+-
+  ]]>
+					</specDescription>
+					<customizedProductId />
+					<currentStock>788</currentStock>
+					<saftyStock>5</saftyStock>
+					<dimensions>
+						<dimension>
+							<specDimensionId>1</specDimensionId>
+							<description>
+								<descriptionId>1</descriptionId>
+							</description>
+						</dimension>
+					</dimensions>
+				</spec>
+			</specs>
+			<images />
+			<isAdult>0</isAdult>
+			<isNoInvoice>0</isNoInvoice>
+			<isTaxFree>0</isTaxFree>
+			<attributes>
+				<attribute>
+					<name>分級標示</name>
+					<content>保護級</content>
+				</attribute>
+			</attributes>
+			<saleType>Normal</saleType>
+			<saleTypeInfo />
+			<categoryId>152985307</categoryId>
+			<customizedMainProductId />
+			<specTypeDimension>0</specTypeDimension>
+			<addons>
+				<addon>
+					<productId>p027528281996</productId>
+				</addon>
+			</addons>
+			<freebies />
+			<maxBuyNum>10</maxBuyNum>
+			<videoPath>
+<![CDATA[ 
+  ]]>
+			</videoPath>
+			<storeId>tw_smp_auto</storeId>
+			<isLimit>0</isLimit>
+			<limitCount>0</limitCount>
+
+	</product>
+
+	<product id="p027528285993">
+			<productId>p027528285993</productId>
+			<productStatus>Online</productStatus>
+			<productName><![CDATA[ F測試賣場僅提供測試人員使用，商品內容與商品皆為測試使用， 所有訂單一律取消 折扣商品  ]]>
+			</productName>
+			<shortDescription><![CDATA[ automation測試用的商品發布，非真實商品。商品內容與商品皆為測試使用,所有訂單一律取消  ]]>
+			</shortDescription>
+			<productType>Main</productType>
+			<marketPrice>0</marketPrice>
+			<price>100</price>
+			<costPrice>0</costPrice>
+			<reserveOnlineTime />
+			<reserveOfflineTime />
+			<specs>
+				<spec>
+					<specId>1</specId>
+					<specDescription><![CDATA[ R/B  ]]>
+					</specDescription>
+					<customizedProductId />
+					<currentStock>117</currentStock>
+					<saftyStock>5</saftyStock>
+					<dimensions>
+						<dimension>
+							<specDimensionId>1</specDimensionId>
+							<description>
+								<descriptionId>1</descriptionId>
+							</description>
+						</dimension>
+						<dimension>
+							<specDimensionId>2</specDimensionId>
+							<description>
+								<descriptionId>1</descriptionId>
+							</description>
+						</dimension>
+					</dimensions>
+				</spec>
+				<spec>
+					<specId>2</specId>
+					<specDescription><![CDATA[ S/B  ]]>
+					</specDescription>
+					<customizedProductId />
+					<currentStock>108</currentStock>
+					<saftyStock>10</saftyStock>
+					<dimensions>
+						<dimension>
+							<specDimensionId>1</specDimensionId>
+							<description>
+								<descriptionId>2</descriptionId>
+							</description>
+						</dimension>
+						<dimension>
+							<specDimensionId>2</specDimensionId>
+							<description>
+								<descriptionId>1</descriptionId>
+							</description>
+						</dimension>
+					</dimensions>
+				</spec>
+			</specs>
+			<specDimensions>
+				<specDimension>
+					<specDimensionId>1</specDimensionId>
+					<descriptions>
+						<description>
+							<descriptionId>1</descriptionId>
+							<name><![CDATA[ R  ]]>
+							</name>
+						</description>
+						<description>
+							<descriptionId>2</descriptionId>
+							<name>
+								<![CDATA[ S  ]]>
+							</name>
+						</description>
+					</descriptions>
+					<specDimensionName><![CDATA[ 商品顏色  ]]>
+					</specDimensionName>
+				</specDimension>
+				<specDimension>
+					<specDimensionId>2</specDimensionId>
+					<descriptions>
+						<description>
+							<descriptionId>1</descriptionId>
+							<name><![CDATA[ B  ]]>
+							</name>
+						</description>
+					</descriptions>
+					<specDimensionName><![CDATA[ 商品尺寸  ]]>
+					</specDimensionName>
+				</specDimension>
+			</specDimensions>
+			<images />
+			<isAdult>0</isAdult>
+			<isNoInvoice>0</isNoInvoice>
+			<isTaxFree>0</isTaxFree>
+			<attributes>
+				<attribute>
+					<name>分級標示</name>
+					<content>保護級</content>
+				</attribute>
+			</attributes>
+			<saleType>Normal</saleType>
+			<saleTypeInfo />
+			<categoryId>152985307</categoryId>
+			<customizedMainProductId />
+			<specTypeDimension>2</specTypeDimension>
+			<addons>
+				<addon>
+					<productId>p027510496169</productId>
+				</addon>
+			</addons>
+			<freebies />
+			<maxBuyNum>10</maxBuyNum>
+			<videoPath><![CDATA[   ]]>
+			</videoPath>
+			<storeId>tw_smp_auto</storeId>
+			<isLimit>0</isLimit>
+			<limitCount>0</limitCount>
+	</product>
+
+
+</root>

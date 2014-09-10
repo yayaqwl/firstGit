@@ -1,0 +1,692 @@
+<?xml version='1.0' ?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:cwmp="urn:dslforum-org:cwmp-1-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SOAP-ENV:Header>
+    <cwmp:ID SOAP-ENV:mustUnderstand="1">ID:intrnl.unset.id.GetParameterValues1405602639554.12495361</cwmp:ID>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <cwmp:GetParameterValuesResponse>
+      <ParameterList SOAP-ENC:arrayType="cwmp:ParameterValueStruct[170]">
+        <ParameterValueStruct>
+          <Name>Device.DeviceSummary</Name>
+          <Value xsi:type="xsd:int">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.RootDataModelVersion</Name>
+          <Value xsi:type="xsd:string">2.7</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.InterfaceStackNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.Manufacturer</Name>
+          <Value xsi:type="xsd:string">suma</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.ManufacturerOUI</Name>
+          <Value xsi:type="xsd:string">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.ModelName</Name>
+          <Value xsi:type="xsd:string">SDG8263</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.Description</Name>
+          <Value xsi:type="xsd:string">This is a super gateway device&#65281;</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.ProductClass</Name>
+          <Value xsi:type="xsd:string">LK</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.SerialNumber</Name>
+          <Value xsi:type="xsd:string">123456789012345678</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.HardwareVersion</Name>
+          <Value xsi:type="xsd:string">HV1.23</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.SoftwareVersion</Name>
+          <Value xsi:type="xsd:string">SV1.56</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.AdditionalHardwareVersion</Name>
+          <Value xsi:type="xsd:string">12187f832j3902</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.AdditionalSoftwareVersion</Name>
+          <Value xsi:type="xsd:string">812heiof309</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.ProvisioningCode</Name>
+          <Value xsi:type="xsd:string">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.UpTime</Name>
+          <Value xsi:type="xsd:unsignedInt">19</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.FirstUseDate</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.VendorConfigFileNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.SupportedDataModelNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.ProcessorNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.VendorLogFileNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.MemoryStatus.Free</Name>
+          <Value xsi:type="xsd:unsignedInt">250188</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.MemoryStatus.Total</Name>
+          <Value xsi:type="xsd:unsignedInt">458432</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.ProcessStatus.ProcessNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">11</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.ProcessStatus.CPUUsage</Name>
+          <Value xsi:type="xsd:unsignedInt">6</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.NetworkProperties.TCPImplementation</Name>
+          <Value xsi:type="xsd:string">Tahoe,Reno</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.NetworkProperties.MaxTCPWindowSize</Name>
+          <Value xsi:type="xsd:unsignedInt">32767</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.Processor.0.Alias</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.Processor.0.Architecture</Name>
+          <Value xsi:type="xsd:string">mipseb</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.Processor.1.Alias</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.DeviceInfo.Processor.1.Architecture</Name>
+          <Value xsi:type="xsd:string">mipseb</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.URL</Name>
+          <Value xsi:type="xsd:string">http://192.166.162.217:8080/openacs/acs</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.Username</Name>
+          <Value xsi:type="xsd:string">STBAdmin</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.Password</Name>
+          <Value xsi:type="xsd:string">***</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.ConnectionRequestURL</Name>
+          <Value xsi:type="xsd:string">http://192.166.162.219:16001/cpe</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.ConnectionRequestUsername</Name>
+          <Value xsi:type="xsd:string">STBAdmin</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.ConnectionRequestPassword</Name>
+          <Value xsi:type="xsd:string">***</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.ParameterKey</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.UpgradesManaged</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.PeriodicInformInterval</Name>
+          <Value xsi:type="xsd:unsignedInt">300</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.PeriodicInformEnable</Name>
+          <Value xsi:type="xsd:boolean">true</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DefaultActiveNotificationThrottle</Name>
+          <Value xsi:type="xsd:string">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNMaximumKeepAlivePeriod</Name>
+          <Value xsi:type="xsd:int">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.UDPConnectionRequestAddress</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNServerAddress</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.KickURL</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.NATDetected</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNServerPort</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNEnable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.PeriodicInformTime</Name>
+          <Value xsi:type="xsd:string">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DownloadProgressURL</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNMinimumKeepAlivePeriod</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNPassword</Name>
+          <Value xsi:type="xsd:string">***</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNUsername</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.CWMPRetryMinimumWaitInterval</Name>
+          <Value xsi:type="xsd:unsignedInt">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.CWMPRetryIntervalMultiplier</Name>
+          <Value xsi:type="xsd:unsignedInt">1000</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.AliasBasedAddressing</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.InstanceMode</Name>
+          <Value xsi:type="xsd:string">TR069_V2.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.AutoCreateInstances</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.ManageableDeviceNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.EnableCWMP</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.ManageableDeviceNotificationLimit</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.EmbeddedDeviceNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.VirtualDeviceNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.SupportedConnReqMethods</Name>
+          <Value xsi:type="xsd:string">HTTP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.ConnReqXMPPConnection</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.ConnReqAllowedJabberIDs</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.ConnReqJabberID</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.HTTPCompressionSupported</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.HTTPCompression</Name>
+          <Value xsi:type="xsd:string">Disabled</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.LightweightNotificationProtocolsSupported</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.LightweightNotificationProtocolsUsed</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.UDPLightweightNotificationHost</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.UDPLightweightNotificationPort</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.AutonomousTransferCompletePolicy.TransferTypeFilter</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.AutonomousTransferCompletePolicy.Enable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.AutonomousTransferCompletePolicy.FileTypeFilter</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.AutonomousTransferCompletePolicy.ResultTypeFilter</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DownloadAvailability.Announcement.Enable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DownloadAvailability.Announcement.Status</Name>
+          <Value xsi:type="xsd:string">status</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DownloadAvailability.Announcement.GroupNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DownloadAvailability.Query.Enable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DownloadAvailability.Query.Status</Name>
+          <Value xsi:type="xsd:string">status</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DownloadAvailability.Query.URL</Name>
+          <Value xsi:type="xsd:string">www.sumavision.com.cn</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DUStateChangeComplPolicy.OperationTypeFilter</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DUStateChangeComplPolicy.Enable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DUStateChangeComplPolicy.ResultTypeFilter</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.DUStateChangeComplPolicy.FaultCodeFilter</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.StandbyPolicy.CRUnawarenessMaxDuration</Name>
+          <Value xsi:type="xsd:int">-1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.StandbyPolicy.MaxMissedPeriodic</Name>
+          <Value xsi:type="xsd:int">-1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.StandbyPolicy.NotifyMissedScheduled</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.StandbyPolicy.NetworkAwarenessCapable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.StandbyPolicy.SelfTimerCapable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.StandbyPolicy.CRAwarenessRequested</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.StandbyPolicy.PeriodicAwarenessRequested</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.StandbyPolicy.ScheduledAwarenessRequested</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.GatewayInfo.SerialNumber</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.GatewayInfo.ManufacturerOUI</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.GatewayInfo.ProductClass</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Time.LocalTimeZone</Name>
+          <Value xsi:type="xsd:string">&#22826;&#24179;&#27915;&#26631;&#20934;&#26102;&#38388;</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Time.NTPServer1</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Time.NTPServer2</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Time.NTPServer3</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Time.NTPServer4</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Time.CurrentLocalTime</Name>
+          <Value xsi:type="xsd:string">87194354</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Time.NTPServer5</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Time.Enable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Time.Status</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.PasswordRequired</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.PasswordUserSelectable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.PasswordReset</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.UpgradeAvailable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.WarrantyDate</Name>
+          <Value xsi:type="xsd:dateTime">1970-01-01T16:00:05Z</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.ISPName</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.ISPHelpDesk</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.ISPHomePage</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.ISPHelpPage</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.ISPLogo</Name>
+          <Value xsi:type="xsd:base64Binary"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.ISPLogoSize</Name>
+          <Value xsi:type="xsd:unsignedInt">12</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.ISPMailServer</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.ISPNewsServer</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.TextColor</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.BackgroundColor</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.ButtonColor</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.ButtonTextColor</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.AutoUpdateServer</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.UserUpdateServer</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.AvailableLanguages</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.CurrentLanguage</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.RemoteAccess.Enable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.RemoteAccess.Port</Name>
+          <Value xsi:type="xsd:unsignedInt">8080</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.RemoteAccess.SupportedProtocols</Name>
+          <Value xsi:type="xsd:string">HTTP,HTTPS</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.RemoteAccess.Protocol</Name>
+          <Value xsi:type="xsd:string">http;TCP/UDP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.LocalDisplay.Movable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.LocalDisplay.Resizable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.LocalDisplay.PosX</Name>
+          <Value xsi:type="xsd:int">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.LocalDisplay.PosY</Name>
+          <Value xsi:type="xsd:int">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.LocalDisplay.Width</Name>
+          <Value xsi:type="xsd:int">1080</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.LocalDisplay.Height</Name>
+          <Value xsi:type="xsd:int">768</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.LocalDisplay.DisplayWidth</Name>
+          <Value xsi:type="xsd:int">768</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.UserInterface.LocalDisplay.DisplayHeight</Name>
+          <Value xsi:type="xsd:int">1080</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Ethernet.InterfaceNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">5</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Ethernet.LinkNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.Ethernet.VLANTerminationNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.WiFi.RadioNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.WiFi.SSIDNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">8</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.WiFi.AccessPointNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">8</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.WiFi.EndPointNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.IP.IPv4Capable</Name>
+          <Value xsi:type="xsd:boolean">true</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.IP.IPv4Enable</Name>
+          <Value xsi:type="xsd:boolean">true</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.IP.IPv4Status</Name>
+          <Value xsi:type="xsd:string">Enabled</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.IP.IPv6Capable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.IP.IPv6Enable</Name>
+          <Value xsi:type="xsd:boolean">false</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.IP.IPv6Status</Name>
+          <Value xsi:type="xsd:string">Disabled</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.IP.ULAPrefix</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.IP.InterfaceNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">2</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.IP.ActivePortNumberOfEntries</Name>
+          <Value xsi:type="xsd:unsignedInt">4</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.1.DefaultGateway</Name>
+          <Value xsi:type="xsd:string">0.0.0.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.1.SubnetMask</Name>
+          <Value xsi:type="xsd:string">255.255.255.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.1.MACAddress</Name>
+          <Value xsi:type="xsd:string">00:50:B6:04:25:D0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.1.AddressingType</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.1.IPAddress</Name>
+          <Value xsi:type="xsd:string">192.166.162.219</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.1.DNSServers</Name>
+          <Value xsi:type="xsd:string">0.0.0.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.1.DHCP</Name>
+          <Value xsi:type="xsd:string">0.0.0.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.2.DefaultGateway</Name>
+          <Value xsi:type="xsd:string">0.0.0.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.2.SubnetMask</Name>
+          <Value xsi:type="xsd:string">255.255.255.255</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.2.MACAddress</Name>
+          <Value xsi:type="xsd:string"></Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.2.AddressingType</Name>
+          <Value xsi:type="xsd:string">DHCP</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.2.IPAddress</Name>
+          <Value xsi:type="xsd:string">0.0.0.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.2.DNSServers</Name>
+          <Value xsi:type="xsd:string">0.0.0.0</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.LAN.2.DHCP</Name>
+          <Value xsi:type="xsd:string">0.0.0.0</Value>
+        </ParameterValueStruct>
+      </ParameterList>
+    </cwmp:GetParameterValuesResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
